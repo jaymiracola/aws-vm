@@ -1,0 +1,10 @@
+apiVersion: customer.upbound.io/v1alpha1
+kind: AwsVm
+metadata:
+  name: example
+  namespace: default
+spec:
+  parameters:
+    region: us-east-2
+    ami: amazon
+    instanceType: tiny
